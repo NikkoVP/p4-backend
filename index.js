@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(helmet());
 // DB Connection
-await connect('mongodb://127.0.0.1:27017/Pitaka');
+await connect('mongodb+srv://nikkopagdanganan09:j7-PnP9p9_WwHgt@pitaka.oqxq9sl.mongodb.net/');
 
 
 
